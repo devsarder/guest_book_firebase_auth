@@ -37,7 +37,10 @@ export const Login = () => {
       const user = await onFaceBookLogin();
       signedUser = user;
     }
+    console.log(signedUser);
     if (signedUser !== undefined) {
+      Swal.fire(`Hello ${signedUser.user.email}, welcome back!`);
+
       navigate("/home");
     }
   };

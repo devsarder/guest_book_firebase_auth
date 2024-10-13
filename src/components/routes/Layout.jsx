@@ -1,12 +1,12 @@
-import { Outlet } from "react-router-dom";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
+import { LandingPage } from "../pages/LandingPage";
 
 export default function Layout() {
   return (
     <div>
       <Navbar />
-      <Outlet />
+      <LandingPage />
       <Footer />
     </div>
   );

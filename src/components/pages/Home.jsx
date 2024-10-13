@@ -26,7 +26,7 @@ export const Home = () => {
         {/* Left Side - Form */}
         <div className="w-full md:w-1/2 mb-6 md:mb-0">
           <h1 className="text-3xl text-left font-bold text-gray-800 mb-6">
-            Leave Comments for me!
+            Leave Comments For Us!
           </h1>
 
           <form onSubmit={handleSubmit}>
